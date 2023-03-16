@@ -1,0 +1,20 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cafista v2.0 - A Coffee Ordering App</string>
+
+    <!-- Header text for the list of Toppings [CHAR LIMIT = 20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Thank you message for the Order Summary method (CHAR LIMIT = NONE) -->
+    <string name="thank_you"> Thank you!</string>
+
+    <!-- Name for the Order summary. It'll be shown in the format of Name : Owais where Owais
+     is the user's name. [CHAR LIMIT = NONE] .
+     xliff : This will be used for the strings that will change. For e.g, what name the
+     user enters during ordering, that name will be shown. So, this Name changes every time and
+     can be anything. For these types of strings , we use xliff.
+     For using xliff, we need to add this at the top under the 'resources' tag:
+     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+     -->
+<string name="order_summary_name"> Name : <xliff:g id="name" example="Owais"> %s </xliff:g> </string>
+
+</resources>
